@@ -1,0 +1,29 @@
+.item {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    align-items: center;
+    box-shadow: rgb(90, 93, 95) 0px 20px 30px -10px;
+    border-radius: 1rem;
+   
+}
+
+.imagem {
+    align-items: center;
+    height: 12rem;
+    margin: 1rem;
+    border-radius: 100%;
+    margin-bottom: -1rem;
+    z-index: 1000;
+    box-shadow: rgb(90, 93, 95) 0px 20px 30px -10px;
+}
+
+.text {
+    background-color: #e0e4e0;
+    /* height: 6rem; */
+    width: 100%;
+    border-radius: 8px;
+    padding: 2.25rem 1.5rem 1rem;
+    color: #ec2aa5;
+    font-size: 1.25rem;
+}

@@ -1,9 +1,10 @@
-// import styles from '/.Header.module.css'
+import styles from './Header.module.css'
+import fotoRAM from '../../img/logo.svg'
 
 export default function Header() {
     return (
-        <header>
-            <h1>Ricky And Morty</h1>
+        <header className={styles.header}>
+            <img src={fotoRAM} alt="" />
         </header>
     )
 }
