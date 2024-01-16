@@ -2,11 +2,10 @@ import { useEffect, useState } from 'react'
 import Header from '../../components/Header'
 import Card from '../../components/Card'
 import styles from './Home.module.css'
-import imagemFundo from '../../img/fundo.avif'
 
 import { api } from '../../sercives/api'
 
-export function Home() {
+export default function Home() {
 
     const [personagens, setPersonagens] = useState([])
 
