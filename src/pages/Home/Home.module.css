@@ -1,4 +1,13 @@
+.container {
+    text-align: center;
+    background: rgb(25, 25, 25); 
+}
+
+.imgNome {
+    margin-bottom: 3rem;
+}
+
 .home {
-    /* background-image: url('../../img/photo-1520034475321-cbe63696469a.avif'); */
-    background: #0b1b01;
+    background-color: #4c4e4c;
+    
 }

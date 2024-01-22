@@ -24,13 +24,22 @@ export default function Personagens() {
 
 
     return (
-        <>
-        <Header />
-        <div>
-            <h1>
-                {personagens?.location.name}
-            </h1>
+        <div className={styles.container}>
+            <Header />
+            <div className={styles.card}>
+                <img src={personagens.image} alt="" />
+            </div>
+
+            <div className={styles.text}>
+                <div>
+                    <h1>{personagens.name}</h1>
+                </div>
+                    <p>{personagens.status}</p>
+                    <p>{personagens.species}</p>
+                    <p>{personagens.gender}</p>
+                    <p>{personagens.origin?.name}</p>
+                    <p>{personagens.location?.name}</p>
+            </div>
         </div>
-        </>
     )
 }

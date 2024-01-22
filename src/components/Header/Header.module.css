@@ -1,6 +1,27 @@
+
 .header {
-    height: 400px;
-    color: white;
+    /* height: 300px; */
+    color: rgb(45, 46, 45);
     text-align: center;
-    padding: 1.5rem;
+    padding: 1.5rem 1.5rem 0;
+    background: rgb(25, 25, 25);
+}
+
+.logo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logoImg {
+    width: 10%;
+    border-radius: 100%;
+    object-fit: cover;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(14, 160, 14);
+    padding-left: 2.5rem;
+    font-size: 1.5rem;
 }

@@ -1,0 +1,29 @@
+.container {
+    background-color: #4c4e4c;
+    height: 100vh;
+    position: relative;
+}
+
+.card {
+    height: 30rem;
+    position: absolute;
+    left: 5rem;
+    top: 19rem;
+}
+
+.card img {
+    height: 100%;
+}
+
+.text {
+    position: absolute;
+    top: 22rem;
+    right: 8rem;
+    background: rgb(221, 223, 221);
+    padding: 2rem;
+    line-height: 2.5rem;
+}
+
+.text h1 {
+    background: white;
+}

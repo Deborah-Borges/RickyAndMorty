@@ -2,6 +2,7 @@ import { useEffect, useState } from 'react'
 import Header from '../../components/Header'
 import Card from '../../components/Card'
 import styles from './Home.module.css'
+import FotoNome from '../../img/logo.svg'
 
 import { api } from '../../sercives/api'
 
@@ -21,14 +22,17 @@ export default function Home() {
 
     return (
 
-        <div>
-            {/* <img src={imagemFundo} alt="" /> */}
-            
+        <div className={styles.container}>
+            <Header />
+
+            <div className={styles.imgNome}>
+                <img src={FotoNome} alt="" />
+            </div>
+
             <div className={styles.home}>
-                <Header />
+
                 <Card
                     personagens={personagens}
-
                 />
             </div>
 
